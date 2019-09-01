@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="icon-expand-more" viewBox="0 0 32 32">
+      <title>expand-more</title>
+      <path d="M22.133 11.467l-6.133 6.133-6.133-6.133-1.867 1.867 8 8 8-8z"></path>
+    </symbol>
+    <symbol id="icon-star" viewBox="0 0 35 32">
+      <title>star</title>
+      <path d="M17.455 26.182l-10.259 5.393 1.959-11.424-8.301-8.090 11.471-1.667 5.13-10.394 5.13 10.394 11.471 1.667-8.301 8.090 1.959 11.424z"></path>
+    </symbol>
+  </defs>
+</svg>

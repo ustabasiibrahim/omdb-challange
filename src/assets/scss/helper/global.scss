@@ -1,0 +1,55 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* Custom radio buttons */
+input[type="radio"] + label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: 300;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+}
+
+input[type="radio"] {
+  display: none !important;
+  *display: inline;
+  &:checked + label {
+    font-weight: 500;
+  }
+  &:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background: #f5c518;
+    border: 1px solid #f5c518;
+    font-weight: bold;
+  }
+}
